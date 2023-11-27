@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+@import '@siemens/ix-icons/dist/css/ix-icons.css';
+@import '@siemens/ix/dist/siemens-ix/siemens-ix.css';
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.spacebetween {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+.border {
+  border: 1px solid var(--theme-color-soft-bdr);
+  background: var(--theme-color-ghost);
+  border-radius: 3px;
+  padding: 0.15rem;
+
+  align-self: stretch;
+  align-items: center;
+}
