@@ -16,7 +16,7 @@ import { FormBuilder, Validators } from '@angular/forms';
     <ix-menu-item tabIcon="home"> Home </ix-menu-item>
   </ix-menu>
 
-  <form [formGroup]="group">
+  <form [formGroup]="group" class="m-2">
     <ix-layout-grid class="border">
       <ix-row>
         <ix-col class="col-md-4">
